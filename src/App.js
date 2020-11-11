@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Main from './components/Main';
+import Footer from './components/Footer';
 import Wrapper from './components/Wrapper';
 import './App.css';
 
@@ -12,6 +13,7 @@ function App() {
         <Header/>
         <Main/>
       </Wrapper>
+      <Footer />
     </div>
   
   );

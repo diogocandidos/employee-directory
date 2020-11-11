@@ -5,13 +5,13 @@ function SearchBox({ handleSearchChange }) {
     <div className="searchbox">
       <form className="form-inline">
         <input
-          className="form-control mr-sm-2"
+          className="form-control form-control-m mr-sm-3"
           type="search"
           placeholder="Search"
           aria-label="Search"
           onChange={e => handleSearchChange(e)}
         />
-        <button className="btn my-2 my-sm-0" type="submit">
+        <button className="btn btn-info btn-m font-weight-bold" type="submit">
           Search
         </button>
       </form>

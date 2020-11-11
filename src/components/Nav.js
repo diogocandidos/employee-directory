@@ -1,10 +1,11 @@
 import React from "react";
-import SearchBox from "../components/SearchBox";
+import SearchBox from "./SearchBox";
+import '../components/styles/NavBar.css';
 
 
 function Nav() {
     return (
-            <nav className="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+            <nav className="navbar navbar-expand-lg navbar-light">
                 <div  className="search-form">
                     <SearchBox/>
                 </div> 
