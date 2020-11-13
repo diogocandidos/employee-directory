@@ -1,21 +1,22 @@
-import React from "react";
-//import "../styles/DataBody.css";
+import React, { useContext } from "react";
+import DataContext from "../utils/DataContext"
 
-function DataBody({ users }) {
-  function formatDate(date) {
-    const dateArray = date.split("-");
-    const year = dateArray[0];
-    const month = dateArray[1];
-    const dayArray = dateArray[2].split("T");
-    const day = dayArray[0];
-    const formattedDate = [month, day, year].join("-");
-    return formattedDate;
+const DataBody = () => {
+  const context = useContext(DataContext);
+
+  function formatDate(date){
+      const dateArray = date.split("-");
+      const year = dateArray[0];
+      const month = dateArray[1];
+      const dayArray = dateArray[2].split("T");
+      const day = dayArray[0];
+      const formattedDate =[month, day, year].join("-");
+      return formattedDate;
   }
-
   return (
-    <tbody>
-      {users[0] !== undefined && users[0].name !== undefined ? (
-        users.map(({ login, name, picture, phone, email, dob }) => {
+      <tbody>
+      {context.developerState.filteredUsers[0] !== undefined && context.developerState.filteredUsers[0].name !== undefined ? (
+        context.developerState.filteredUsers.map(({ login, name, picture, phone, email, dob }) => {
           return (
             <tr key={login.uuid}>
               <td data-th="Image" className="align-middle">

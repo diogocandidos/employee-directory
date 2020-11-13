@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
+import DataContext from "../utils/DataContext"
 
-function SearchBox({ handleSearchChange }) {
+
+const SearchBox = function () {
+  const context = useContext(DataContext);
+
   return (
     <div className="searchbox">
       <form className="form-inline">
@@ -9,7 +13,7 @@ function SearchBox({ handleSearchChange }) {
           type="search"
           placeholder="Search"
           aria-label="Search"
-          onChange={e => handleSearchChange(e)}
+          onChange={e => context.handleSearchChange(e)}
         />
         <button className="btn btn-info btn-m font-weight-bold" type="submit">
           Search

@@ -1,28 +1,13 @@
-# employee-directory
+# Employee Directory
 
-# Unit 19 React Homework: Employee Directory
-## Overview
-For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+## Directions
+![License Badge](https://img.shields.io/static/v1?label=License&message=MIT_License&color=blue)
 
-## Important Assignment Info
-Generate users here:
-https://randomuser.me/api/?results=200&nat=us
-(use axios to request users with this URL)
-Important data to display:
-picture, first and last name, phone, email, and date of birth
+ create a employee directory with React where the user will be able to view my entire employee directory at once so that I have quick access to their information.
 
-
-**Note**
-Use a table, since this is tabular data. :-)
-
-
-## User Story
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
-
-
-## Business Context
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
-
+ An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+ 
+  This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
 
 ## Acceptance Criteria
 Given a table of random users, when the user loads the page, a table of employees should render. 
@@ -30,18 +15,48 @@ The user should be able to:
   * Sort the table by at least one category
   * Filter the users by at least one property.
 
-## Commit Early and Often
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-Follow these guidelines for committing:
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
-* Test your application before you commit to ensure functionality at every step in the development process
-We would like you to have well over 200 commits by graduation, so commit early and often!
+The data must to display:
+picture, first and last name, phone, email, and date of birth.
 
-## Submission on BCS
-You are required to submit the following:
-* the URL to the deployed application
-* the URL to the Github repository
+## Demo
+
+* Click in the link bellow to access the application.
+
+****** [Heroku link]() ******
+
+1. Screenshot of homepage
+
+<img width="700" alt="homepage" src="https://user-images.githubusercontent.com/61811579/99130466-41f08980-25c5-11eb-9234-d5e7c89b0314.png">
+
+2. Screenshot of searching by name of the employee
+
+<img width="700" alt="searchByName" src="https://user-images.githubusercontent.com/61811579/99130471-44eb7a00-25c5-11eb-8ce1-b233727961e4.png">
+
+
+## Licence
+
+MIT License
+
+Copyright (c) 2020 Diogo Candido da Silva
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## GitHub
+- Author: Diogo Candido da Silva
+- [GitHub Profile](https://github.com/diogocandidos)
